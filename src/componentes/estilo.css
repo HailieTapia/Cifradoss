@@ -1,0 +1,69 @@
+.container {
+    display: flex; 
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.container-x, 
+.cesar-container {
+    width: calc(50% - 25px); }
+.container-x {
+    margin-right: 10px; 
+}
+.cesar-container {
+    margin-left: 10px; 
+}
+
+.cesar-title {
+    color: #003366; 
+    font-family: 'Arial', sans-serif;
+    text-align: left; 
+    margin-bottom: 10px; 
+    font-size: 2.5rem; 
+}
+
+.cesar-label {
+    color: #333; 
+    font-weight: normal;
+    font-size: .9rem; 
+}
+
+.cesar-instructions {
+    padding: 10px;
+    font-size: .9rem;
+    background-color: #e7f1ff;
+    border-left: 4px solid #0073e6;
+}
+
+.cesar-input,
+.cesar-textarea {
+    border-radius: 5px; 
+    border: 1px solid #bbb;
+    font-size: 1.1em; 
+    padding: 10px; 
+    width: 100%; 
+}
+
+
+.cesar-textarea {
+    background-color: #fff;
+}
+
+/* Estilos móviles */
+@media only screen and (max-width: 600px) {
+    .cesar-container {
+        padding: 15px; 
+    }
+
+    .cesar-title {
+        font-size: 2rem; 
+    }
+
+    .cesar-label {
+        font-size: 1rem;
+    }
+}
+.error-input {
+    border-color: red;
+}
