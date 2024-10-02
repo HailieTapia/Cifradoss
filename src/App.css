@@ -61,8 +61,8 @@ h1 {
 /* Media Queries para Responsividad */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 1.7rem; 
-    margin-bottom: 17px;
+    font-size: 1.3rem; 
+    margin-bottom: 16px;
   }
 
   .ant-btn-primary {
