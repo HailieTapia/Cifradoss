@@ -53,15 +53,15 @@
 /* Estilos móviles */
 @media only screen and (max-width: 600px) {
     .cesar-container {
-        padding: 15px; 
+        padding: 12px; 
     }
 
     .cesar-title {
-        font-size: 2rem; 
+        font-size: 1,7rem; 
     }
 
     .cesar-label {
-        font-size: 1rem;
+        font-size: .7rem;
     }
 }
 .error-input {
