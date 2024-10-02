@@ -1,90 +1,100 @@
 .App {
   text-align: center;
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+}
 
 h1 {
-  font-size: 2rem;
-  text-align: center;
-  color: #123a63; 
-  margin: 40px 10px 15px;
-  font-family: 'Merriweather', serif; 
+  font-size: 2rem; 
+  color: #123a63;
+  margin: 0;
+  font-family: 'Merriweather', serif;
 }
 
 .ant-card-body p {
   text-align: left;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin: 11px 0;
-  color: #333; 
-  font-family: 'Roboto', sans-serif; 
+  color: #333;
+  font-family: 'Roboto', sans-serif;
 }
 
-.ant-card-body-panel {
-  text-align: left;
-  font-size: .9rem;
-  color: #333;
-  font-family: 'Roboto', sans-serif; 
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 20px;
+  background-color: #046fdb;
 }
 
 .ant-menu-horizontal {
-  padding: 8px 20px;
-  font-size: .7rem;
-  background-color: #046fdbc8;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: none;
 }
 
-.App-body {
-  padding:0px 0px;
-  margin: 0 auto;
+.ant-menu-item {
+  padding: 10px 16px;
+  color: #fff;
+}
+
+.ant-drawer-content {
+  background-color: #333;
+  color: #fff;
 }
 
 .ant-card {
   max-width: 660px;
-  margin: 0px auto;
+  margin: 0 auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   background-color: #ffffff;
 }
 
 .App-footer {
-  background-color: #2f2f2fab; 
-  padding: 25px 20px;
-  font-size: .7rem;
+  background-color: #2f2f2fab;
+  padding: 22px 20px;
+  font-size: 0.7rem;
   color: #ffffff;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
+/* Media Queries para Responsividad */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.7rem; 
     margin-bottom: 17px;
-  }
-
-  .ant-card-head-title {
-    font-size: 1rem;
   }
 
   .ant-btn-primary {
     width: 100%;
-    font-size: .6rem;
+    font-size: 0.6rem;
     margin-bottom: 17px;
-  }
-
-  .App-body {
-    padding: 10px 9px;
   }
 
   .ant-card {
     margin-bottom: 17px;
   }
-}
-
-@media only screen and (max-width: 600px) {
   .ant-card-body p {
-    font-size: .7rem;
+    font-size: 0.7rem;
     line-height: 1.2;
   }
 
   .App-footer {
     padding: 18px 13px;
   }
+
+  .App-header .ant-menu-horizontal {
+    display: none;
+  }
+
+  .menu-desplegable {
+    display: block; 
+  }
 }
+
+@media only screen and (min-width: 601px) {
+  .menu-desplegable {
+    display: none; 
+  }
+}
+
