@@ -52,16 +52,33 @@
 
 /* Estilos móviles */
 @media only screen and (max-width: 600px) {
-    .cesar-container {
-        padding: 12px; 
+    .container {
+        flex-direction: column; 
+        padding: 0 10px;
+        align-items: center; /* Centrar el contenido */
     }
 
+    .container-x,
+    .cesar-container {
+        width: 100%; /* Asegurar que ocupen el 100% del ancho en pantallas pequeñas */
+        margin: 0; /* Eliminar márgenes en móviles */
+        padding: 8px; 
+    }
     .cesar-title {
-        font-size: 1.2rem; 
+        font-size: 1.6rem; /* Un tamaño intermedio */
     }
 
     .cesar-label {
-        font-size: 1rem;
+        font-size: 1rem; /* Es un buen tamaño para móviles */
+    }
+     .cesar-input,
+    .cesar-textarea {
+        width: 100%; /* Asegurar que los campos ocupen todo el ancho disponible */
+        font-size: 1rem; /* Ajustar un poco el tamaño del texto */
+    }
+      .cesar-btn {
+        width: 100%;
+        margin-top: 10px;
     }
 }
 .error-input {
