@@ -17,10 +17,9 @@
 
 .cesar-title {
     color: #003366; 
-    font-family: 'Arial', sans-serif;
     text-align: left; 
-    margin-bottom: 10px; 
-    font-size: 2.5rem; 
+    margin-bottom: 0px; 
+    font-size: 1.1rem; 
 }
 
 .cesar-label {
@@ -65,7 +64,7 @@
         padding: 8px; 
     }
     .cesar-title {
-        font-size: 1.6rem; /* Un tamaño intermedio */
+        font-size: 1.1rem; /* Un tamaño intermedio */
     }
 
     .cesar-label {
