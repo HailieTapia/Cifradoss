@@ -51,7 +51,7 @@
 }
 
 /* Estilos móviles */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     .cesar-container {
         padding: 12px; 
     }
@@ -61,7 +61,7 @@
     }
 
     .cesar-label {
-        font-size: .5rem;
+        font-size: .8rem;
     }
 }
 .error-input {
