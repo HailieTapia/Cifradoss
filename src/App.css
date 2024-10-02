@@ -27,7 +27,7 @@ h1 {
 
 .ant-menu-horizontal {
   padding: 8px 20px;
-  font-size: .9rem;
+  font-size: .7rem;
   background-color: #046fdbc8;
 }
 
@@ -53,7 +53,7 @@ h1 {
   font-family: 'Merriweather', serif;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   h1 {
     font-size: 2.2rem;
     margin-bottom: 20px;
@@ -78,7 +78,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .ant-card-body p {
     font-size: 1rem;
     line-height: 1.6;
