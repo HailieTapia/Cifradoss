@@ -73,7 +73,7 @@ const Cesar = () => {
                         <Col span={12}>
                             <Button
                                 type="primary"
-                                style={{ background: '#123a63' }}
+                                style={{ background: '#0758a8' }}
                                 block
                                 onClick={handleCifrar}
                                 disabled={!!errorMensaje}
@@ -84,7 +84,7 @@ const Cesar = () => {
                         <Col span={12}>
                             <Button
                                 type="primary"
-                                style={{ background: '#123a63' }}
+                                style={{ background: '#0758a8' }}
                                 block
                                 onClick={handleDescifrar}
                                 disabled={!!errorMensaje}
