@@ -43,37 +43,34 @@
     padding: 10px; 
     width: 100%; 
 }
-
-
 .cesar-textarea {
     background-color: #fff;
 }
 
-/* Estilos móviles */
 @media only screen and (max-width: 600px) {
     .container {
         flex-direction: column; 
         padding: 0 10px;
-        align-items: center; /* Centrar el contenido */
+        align-items: center; 
     }
 
     .container-x,
     .cesar-container {
-        width: 100%; /* Asegurar que ocupen el 100% del ancho en pantallas pequeñas */
-        margin: 0; /* Eliminar márgenes en móviles */
+        width: 100%;
+        margin: 0; 
         padding: 8px; 
     }
     .cesar-title {
-        font-size: 1.1rem; /* Un tamaño intermedio */
+        font-size: 1.1rem;
     }
 
     .cesar-label {
-        font-size: 1rem; /* Es un buen tamaño para móviles */
+        font-size: 1rem; 
     }
      .cesar-input,
     .cesar-textarea {
-        width: 100%; /* Asegurar que los campos ocupen todo el ancho disponible */
-        font-size: 1rem; /* Ajustar un poco el tamaño del texto */
+        width: 100%;
+        font-size: 1rem; 
     }
       .cesar-btn {
         width: 100%;
